@@ -1,0 +1,20 @@
+{
+  "name": "voice-chat-bot",
+  "version": "1.0.0",
+  "description": "A web app that integrates Speech APIs with Dialogflow using Socket.IO",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["voice", "chat", "bot", "speech", "dialogflow", "socket.io"],
+  "author": "Voice Chat Bot Developer",
+  "license": "ISC",
+  "dependencies": {
+    "apiai": "^4.0.3",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  }
+}
